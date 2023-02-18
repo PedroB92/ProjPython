@@ -38,7 +38,7 @@ def calc(key):
     elif key == "=":
         try:
             #Código responsável por realizar o calculo solicitado
-            display.insert(tk.END, "=" + str(eval(display.get())))
+            display.insert(tk.END, "=" + str(round(eval(display.get()),2)))
         except:
             display.insert(tk.END, "Error")
     else:
