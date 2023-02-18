@@ -3,7 +3,7 @@
 import tkinter as tk
 
 root = tk.Tk()
-root.title("Calculator")
+root.title("Calculadora")
 
 #Constroi a tela onde serão inseridos os valores para calculo.
 display = tk.Entry(root, font=("Helvetica", 20))
